@@ -45,10 +45,6 @@ ChatWave-Backend/
 │       │       │   ├── users.py
 │       │       │   ├── posts.py
 │       │       │   └── chats.py
-│       │       └── schema/
-│       │           ├── users.py
-│       │           ├── posts.py
-│       │           └── chats.py
 │       └── routers/
 │           ├── users.py
 │           ├── posts.py
