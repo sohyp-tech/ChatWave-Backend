@@ -22,7 +22,7 @@ app.include_router(users.router)
 app.include_router(posts.router)
 app.include_router(chats.router)
 
-app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+app.mount("/uploads", StaticFiles(directory="uploads", check_dir=False), name="uploads")
 
 
 Base.metadata.create_all(bind=engine)
