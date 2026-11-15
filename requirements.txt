@@ -1,8 +1,0 @@
-fastapi
-passlib
-pydantic
-PyMySQL
-python-dotenv
-SQLAlchemy
-uvicorn
-websockets
